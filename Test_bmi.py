@@ -9,3 +9,4 @@ def test_bmi_over_weight():
 
 def test_bmi_under_weight():
     assert bmi.calculate_bmi(1.73, 50) == -1
+
